@@ -22,9 +22,13 @@ body::before {
 
 
 header {
-    background: linear-gradient(to right, #919bff, #30c67c);
+    background: linear-gradient(to right, #392d69, #b57bee);
     color: rgb(255, 255, 255);
     padding: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .navbar {
@@ -35,7 +39,7 @@ header {
     margin: auto;
 }
 
-nav {
+nav{
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -56,6 +60,12 @@ nav a:hover {
     transform: translateY(-2px);
 }
 
+.navs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .topic {
     text-align: center;
 
@@ -66,7 +76,7 @@ nav a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .data {
@@ -89,4 +99,46 @@ nav a:hover {
     font-style: italic;
     font-size: 20px;
 }
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 10px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.search-input:focus {
+    border-color: #ff9800;
+    box-shadow: 0 0 10px rgba(255, 152, 0, 0.4);
+}
+
+.search-btn {
+    padding: 12px 20px;
+    border: none;
+    background: linear-gradient(45deg, #ff9800, #ff5722);
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #ff5722, #ff9800);
+}
+
 
