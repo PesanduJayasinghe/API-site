@@ -16,7 +16,7 @@ searchBtn.addEventListener("click", () => {
 });
 
 async function callApi(movie = "") {
-    fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=f5c34d84&t=${movie}`)
+    fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=f5c34d84&t=${movie}`)
         .then((responce) => responce.json())
         .then((data) => {
             if (data.Response === "True") {
@@ -25,7 +25,7 @@ async function callApi(movie = "") {
                 alert("Movie not found!");
             }
         })
-    fetch(`http://www.omdbapi.com/?apikey=f5c34d84&s=${movie}`)
+    fetch(`https://www.omdbapi.com/?apikey=f5c34d84&s=${movie}`)
         .then(res => res.json())
         .then(data => {
             if (data.Response === "True") {
