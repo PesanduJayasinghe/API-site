@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bitcount+Prop+Double:wght@100..900&family=Bitcount+Prop+Single:wght@100..900&family=DM+Serif+Display:ital@0;1&family=Edu+SA+Hand:wght@400..700&family=Fjalla+One&family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Roboto+Condensed:ital,wght@0,700;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.single-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+}
+
+img {
+    height: 251px;
+    width: 201px;
+    border: 3px solid rgb(30, 255, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    border: 6px solid;
+    border-image: linear-gradient(45deg, #57ebde, #aefb2a) 1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}

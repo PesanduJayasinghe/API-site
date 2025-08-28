@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bitcount+Prop+Double:wght@100..900&family=Bitcount+Prop+Single:wght@100..900&family=DM+Serif+Display:ital@0;1&family=Edu+SA+Hand:wght@400..700&family=Fjalla+One&family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Roboto+Condensed:ital,wght@0,700;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    margin: 0%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/assets/images/3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+
+header {
+    background: linear-gradient( to right,#60a5ff,#00ff885b);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+        border-radius: 0px 0px 20px 20px;
+        
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: linear-gradient(to right,#0e1c26,#294861);
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: #00ff04;
+    color: rgb(0, 0, 0);
+    transform: translateY(-2px);
+}
+
+.navs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic {
+    text-align: center;
+}
+
+.film-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.data {
+    margin-bottom: 20px;
+}
+
+.main-label {
+    font-family: "Fredoka", sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    margin-right: 20px;
+}
+
+.sub-label {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 10px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.search-input:focus {
+    border-color: #ff9800;
+    box-shadow: 0 0 10px rgba(255, 152, 0, 0.4);
+}
+
+.search-btn {
+    padding: 12px 20px;
+    border: none;
+    background: linear-gradient(45deg, #ff9800, #ff5722);
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #ff5722, #ff9800);
+}
+
+.plot{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     padding-top: 10px;
+    padding-bottom: 40px;
+}

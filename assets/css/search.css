@@ -1,0 +1,25 @@
+.results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.keyword-movie {
+    display: inline-flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;      /* So multiple results sit next to each other */
+    width: 150px;                   /* Fixed width */
+    margin: 10px;                   /* Space between results */
+    padding: 10px;                  /* Inner spacing */
+    text-align: center;             /* Center the text and image */
+    background: rgba(0,0,0,0.05);  /* Light background */
+    border-radius: 10px;   
+    justify-content: center;         /* Rounded corners */     /* Hover effect */
+}
+
+.keyword-movie img {
+    border-radius: 5px;             /* Rounded images */
+    max-width: 100%;                /* Keep image inside div */
+}

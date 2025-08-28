@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoviesToday</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/search.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="topic">
+            <h1>📽️:::: Movie Hub ::::🎬</h1>
+            <h3>THE NEW GENERATION OF MOVIE WATCHING</h3>
+        </div>
+        <div class="navs">
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="searchmovie.html" >🔍 Search</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="search-section">
+        <input type="text" placeholder="Search movies..." class="search-input" id="txtSearch">
+        <button class="search-btn" id="search_btn">🔍 Search</button>
+    </section>
+
+
+    <div class="film-details">
+        <div>
+            <img src="assets/images/107760135651e70300fb4c1cf09eea09.jpg" alt="" srcset="" width="300px" height="400px" id="image">
+        </div>
+
+        <div>
+            <div class="data">
+                <label for="" class="main-label">Movie Name:</label>
+                <label for="" class="sub-label" id="movie_name"></label>
+            </div>
+
+            <div class="data">
+                <label for="" class="main-label">Released Year:</label>
+                <label for="" class="sub-label" id="released_year"></label>
+            </div>
+
+            <div class="data">
+                <label for="" class="main-label">Rated:</label>
+                <label for="" class="sub-label" id="categories"></label>
+            </div>
+
+            <div class="data">
+                <label for="" class="main-label">IMDB:</label>
+                <label for="" class="sub-label" id="imdb_rate"></label>
+            </div>
+
+            <div class="data">
+                <label for="" class="main-label">Runtime:</label>
+                <label for="" class="sub-label" id="runs"></label>
+            </div>
+
+            <div class="data">
+                <label for="" class="main-label">Actors:</label>
+                <label for="" class="sub-label" id="cast"></label>
+            </div>
+
+            <div class="data">
+                <label for="" class="main-label">Director:</label>
+                <label for="" class="sub-label" id="direct"></label>
+            </div>
+
+            
+            <div class="data">
+                <label for="" class="main-label">Genre:</label>
+                <label for="" class="sub-label" id="genr"></label>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="plot">
+                <label for="" class="main-label">Plot:</label>
+                <label for="" class="sub-label" id="plots" style="margin-left: 30px;margin-right: 30px; text-align: center; margin-top: 10px;">SEARCH THE FILM</label>
+            </div>
+
+
+    <h3 style="text-align: center; font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: rgb(0, 255, 38); padding: 20px;">Keyword searches</h3>
+    
+    <div class="results">
+    <div id="keyword-results" class="keyword"></div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
