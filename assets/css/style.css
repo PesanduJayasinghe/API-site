@@ -13,7 +13,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/assets/images/ad7e888c7006c42c99e0bd6f9a28500a.jpg);
+    background: url(/assets/images/3.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(10px);
@@ -22,13 +22,21 @@ body::before {
 
 
 header {
-    background: linear-gradient(to right, #392d69, #b57bee);
-    color: rgb(255, 255, 255);
+    background: linear-gradient( to right,#60a5ff,#00ff885b);
+    color: rgb(0, 0, 0);
     padding: 10px;
     padding-bottom: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+        border-radius: 0px 0px 20px 20px;
+        
 }
 
 .navbar {
@@ -39,28 +47,29 @@ header {
     margin: auto;
 }
 
-nav{
+nav {
     display: flex;
-    gap: 1rem;
+    gap: 16px;
     justify-content: center;
     align-items: center;
 }
 
 nav a {
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     border-radius: 8px;
-    background: #1f2937;
+    background: linear-gradient(to right,#0e1c26,#294861);
     color: white;
     text-decoration: none;
     transition: 0.3s;
 }
 
 nav a:hover {
-    background: #00d103;
+    background: #00ff04;
+    color: rgb(0, 0, 0);
     transform: translateY(-2px);
 }
 
-.navs{
+.navs {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +77,6 @@ nav a:hover {
 
 .topic {
     text-align: center;
-
 }
 
 .film-details {
@@ -83,7 +91,7 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-.main-label{
+.main-label {
     font-family: "Fredoka", sans-serif;
     font-size: 25px;
     font-weight: 550;
@@ -93,8 +101,8 @@ nav a:hover {
     margin-right: 20px;
 }
 
-.sub-label{
-     font-family: "Barlow", sans-serif;
+.sub-label {
+    font-family: "Barlow", sans-serif;
     font-weight: 500;
     font-style: italic;
     font-size: 20px;
@@ -140,5 +148,3 @@ nav a:hover {
     transform: scale(1.05);
     background: linear-gradient(45deg, #ff5722, #ff9800);
 }
-
-
